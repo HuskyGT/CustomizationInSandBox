@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tfbiAyjadFNJUu/B9W0sYHdxSdRzgtZhWiQiEMU4ruru7KU40U5gsxXDLzGUTs7azCDmuSQt3gg+E46CqSlmTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cfaug\\Contacts\\Desktop\\My Mods\\Rounds\\WIP\\CustomizationInSandBox\\CustomizationInSandBox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cfaug\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cfaug\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

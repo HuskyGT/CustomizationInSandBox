@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project>
+	<PropertyGroup>
+		<GamePath>C:\Users\cfaug\AppData\Roaming\r2modmanPlus-local\ROUNDS</GamePath>
+		<GameAssemblyPath>$(GamePath)\Libs</GameAssemblyPath>
+		<BepInExAssemblyPath>$(GamePath)\profiles\Default\BepInEx\core</BepInExAssemblyPath>
+		<PluginsPath>$(GamePath)\profiles\Default\BepInEx\plugins</PluginsPath>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(CI)'=='TRUE'">
+		<GameAssemblyPath>.\Libs</GameAssemblyPath>
+		<BepInExAssemblyPath>.\Libs</BepInExAssemblyPath>
+		<PluginsPath>.\Libs</PluginsPath>
+		<WarningLevel>0</WarningLevel>
+	</PropertyGroup>
+</Project>
