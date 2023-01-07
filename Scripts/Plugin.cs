@@ -1,5 +1,6 @@
-﻿using CustomizationInSandBox.Patches;
+using CustomizationInSandBox.Patches;
 using BepInEx;
+using UnboundLib;
 
 namespace CustomizationInSandBox
 {
@@ -10,6 +11,7 @@ namespace CustomizationInSandBox
     {
         void Awake()
         {
+            Unbound.RegisterClientSideMod(PluginInfo.GUID);
             HarmonyPatches.ApplyHarmonyPatches();
         }
     }
